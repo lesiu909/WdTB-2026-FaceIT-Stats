@@ -4,6 +4,7 @@
 insert into user_account (email, display_name, role, created_at) values
     ('s349690@student.wroclaw.merito.pl',   'Mateusz',   'USER',    current_timestamp),
     ('s011566@student.wroclaw.merito.pl',  'Kuba',  'USER',    current_timestamp),
+    ('wrx85648@student.wroclaw.merito.pl',  'Batosz',  'USER',    current_timestamp),
     ('firma@example.com',       'Firma', 'PARTNER', current_timestamp),
     ('admin@example.com',       'Admin', 'ADMIN',   current_timestamp);
 
