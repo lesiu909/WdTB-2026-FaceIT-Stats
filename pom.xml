@@ -10,11 +10,11 @@
         <relativePath/>
     </parent>
 
-    <groupId>pl.wsb.WdTB-2026-FaceIT-Stats</groupId>
+    <groupId>pl.wsb</groupId>
     <!-- LAB 01: dopisz nazwę projektu (taką samą jak pakiet pl.wsb.<nazwaprojektu>), np. wdtb-2026-backend-kawiarnia -->
-    <artifactId>wdtb-2026-faceitstats</artifactId>
+    <artifactId>wdtb-2026-backend-faceitstats</artifactId>
     <!-- LAB 01: wpisz numery indeksów osób z zespołu, np. 1.0.0-123456-123457-123458 (reguła R1.05) -->
-    <version>113619-113595-111111</version>
+    <version>1.0.0-113619-113595-93487</version>
     <name>WdTB-2026-FaceIT-Stats</name>
     <description>Projekt zespołowy z przedmiotu Wprowadzenie do technologii backendowych (WdTB)</description>
 
