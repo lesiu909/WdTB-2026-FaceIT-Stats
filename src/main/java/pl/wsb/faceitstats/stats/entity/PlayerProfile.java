@@ -52,6 +52,9 @@ public class PlayerProfile {
     @ManyToMany(mappedBy = "participants", fetch = FetchType.LAZY)
     private Set<MatchHistory> matches = new HashSet<>();
 
+    @OneToMany(mappedBy = "playerProfile", fetch = FetchType.LAZY)
+    private List<EloHistory> eloHistory = new ArrayList<>();
+
     public PlayerProfile() {
     }
 
@@ -102,4 +105,7 @@ public class PlayerProfile {
 
     public Set<MatchHistory> getMatches() { return matches; }
     public void setMatches(Set<MatchHistory> matches) { this.matches = matches; }
+
+    public List<EloHistory> getEloHistory() { return eloHistory; }
+    public void setEloHistory(List<EloHistory> eloHistory) { this.eloHistory = eloHistory; }
 }
